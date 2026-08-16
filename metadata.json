@@ -1,0 +1,6 @@
+{
+  "name": "NS Tech Official Website & Admin CMS",
+  "description": "A premier enterprise technology company website with bilingual English/Arabic support, dynamic portfolio & applications showcase, and a full real-time Firebase-powered Admin CMS dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
