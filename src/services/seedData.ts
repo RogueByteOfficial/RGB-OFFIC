@@ -2,45 +2,45 @@ import { AboutInfo, Application, Banner, GeneralSettings, Project, Service, Soci
 
 export const initialSettings: GeneralSettings = {
   siteName: {
-    en: 'NS GROUP Technologies',
-    ar: 'مجموعة إن إس للتقنية'
+    en: 'ROGUE BYTE LLC',
+    ar: 'روج بايت ذ.م.م'
   },
   companyName: {
-    en: 'NS GROUP Technologies Inc.',
-    ar: 'شركة إن إس جروب للتقنيات'
+    en: 'ROGUE BYTE LLC',
+    ar: 'شركة روج بايت ذ.م.م'
   },
-  logoUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&auto=format&fit=crop&q=80',
+  logoUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&auto=format&fit=crop&q=80',
   faviconUrl: '',
-  email: 'contact@nsgrouptech.com',
-  phone: '+966 50 123 4567',
-  whatsapp: '+966501234567',
+  email: 'contact@roguebyte.io',
+  phone: '+1 (555) 019-2834',
+  whatsapp: '+15550192834',
   address: {
-    en: 'King Fahd Road, Digital Business District, Riyadh, Saudi Arabia',
-    ar: 'طريق الملك فهد، حي الأعمال الرقمي، الرياض، المملكة العربية السعودية'
+    en: 'Silicon Tech Center, Suite 800, Wilmington, DE, USA',
+    ar: 'مركز وادي التقنية، جناح 800، ويلمنجتون، ديلاوير، الولايات المتحدة'
   },
   defaultLanguage: 'en',
   theme: 'system',
   seo: {
     metaTitle: {
-      en: 'NS GROUP Technologies | Enterprise Digital Solutions & Apps',
-      ar: 'مجموعة إن إس للتقنية | حلول رقمية وتطبيقات متقدمة'
+      en: 'ROGUE BYTE LLC | Technology & Cybersecurity',
+      ar: 'روج بايت ذ.م.م | التكنولوجيا والأمن السيبراني'
     },
     metaDescription: {
-      en: 'We build the future with top-tier mobile applications, web engineering, cloud infrastructure, and intelligent business systems.',
-      ar: 'نحن نصنع التقنية من أجل المستقبل. شركة متخصصة في تطوير التطبيقات والحلول الرقمية المبتكرة للشركات والأفراد.'
+      en: 'ROGUE BYTE LLC is a technology and cybersecurity company specializing in software engineering, application development, digital solutions, cybersecurity, reverse engineering, and digital forensics.',
+      ar: 'شركة روج بايت (ROGUE BYTE LLC) هي شركة متخصصة في التكنولوجيا والأمن السيبراني، وهندسة البرمجيات، وتطوير التطبيقات، والحلول الرقمية، والأمن السيبراني، والهندسة العكسية، والتحقيق الجنائي الرقمي.'
     },
-    keywords: 'technology, mobile apps, web development, cloud solutions, ERP, Saudi Arabia, tech enterprise',
-    ogImageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&auto=format&fit=crop&q=80'
+    keywords: 'cybersecurity, reverse engineering, digital forensics, software engineering, application development, intelligent systems, digital solutions, ROGUE BYTE LLC',
+    ogImageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&auto=format&fit=crop&q=80'
   },
   social: {
-    facebook: 'https://facebook.com/nsgrouptech',
-    twitter: 'https://x.com/nsgrouptech',
-    instagram: 'https://instagram.com/nsgrouptech',
-    linkedin: 'https://linkedin.com/company/nsgrouptech',
-    github: 'https://github.com/nsgrouptech',
-    youtube: 'https://youtube.com/@nsgrouptech',
-    whatsapp: 'https://wa.me/966501234567',
-    telegram: 'https://t.me/nsgrouptech'
+    facebook: 'https://facebook.com/roguebyte',
+    twitter: 'https://x.com/roguebyte',
+    instagram: 'https://instagram.com/roguebyte',
+    linkedin: 'https://linkedin.com/company/roguebyte',
+    github: 'https://github.com/roguebyte',
+    youtube: 'https://youtube.com/@roguebyte',
+    whatsapp: 'https://wa.me/15550192834',
+    telegram: 'https://t.me/roguebyte'
   }
 };
 
@@ -48,62 +48,62 @@ export const initialBanners: Banner[] = [
   {
     id: 'banner-1',
     title: {
-      en: 'We Build the Future with Precision',
-      ar: 'نحن نصنع التقنية من أجل المستقبل'
+      en: 'Building, Analyzing & Securing Modern Digital Technologies',
+      ar: 'بناء، تحليل، وحماية التقنيات الرقمية الحديثة'
     },
     subtitle: {
-      en: 'NS Group Technologies is an elite tech enterprise specialized in developing innovative apps and digital systems.',
-      ar: 'إن إس جروب هي شركة تقنية متخصصة في تطوير التطبيقات والحلول الرقمية المبتكرة للشركات والأفراد.'
+      en: 'ROGUE BYTE LLC is a premier technology & cybersecurity company delivering advanced software engineering, reverse engineering, and digital forensics.',
+      ar: 'روج بايت (ROGUE BYTE LLC) شركة رائدة في التكنولوجيا والأمن السيبراني، متخصصة في هندسة البرمجيات، والهندسة العكسية، والتحقيق الرقمي.'
     },
     description: {
-      en: 'Transforming complex challenges into elegant, high-impact digital experiences across mobile, cloud, and enterprise architecture.',
-      ar: 'نحول الأفكار المعقدة إلى حلول برمجية ذكية وتطبيقات رائدة تدفع أعمالكم نحو الريادة العالمية.'
+      en: 'We develop secure, scalable, and innovative mobile applications, web platforms, intelligent systems, and custom software solutions while providing advanced security analysis and digital investigation capabilities.',
+      ar: 'نقوم بتطوير تطبيقات جوال ومنصات ويب وأنظمة ذكية وحلول برمجية مخصصة آمنة وقابلة للتطوير ومبتكرة، مع توفير قدرات متقدمة للتحليل الأمني والتحقيق الرقمي.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&auto=format&fit=crop&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&auto=format&fit=crop&q=80',
     badge: {
-      en: 'Next-Gen Engineering',
-      ar: 'هندسة المستقبل'
+      en: 'Cybersecurity & Software Engineering',
+      ar: 'الأمن السيبراني وهندسة البرمجيات'
     },
     buttonText: {
-      en: 'Explore Our Work',
-      ar: 'استكشف أعمالنا'
+      en: 'Explore Solutions',
+      ar: 'استكشف حلولنا'
     },
-    buttonLink: '/applications',
+    buttonLink: '/services',
     secondaryButtonText: {
-      en: 'Contact Us',
-      ar: 'تواصل معنا'
+      en: 'Discover Applications',
+      ar: 'اكتشف التطبيقات'
     },
-    secondaryButtonLink: '/contact',
+    secondaryButtonLink: '/applications',
     order: 1,
     isActive: true
   },
   {
     id: 'banner-2',
     title: {
-      en: 'Scalable Cloud & Intelligent Enterprise Systems',
-      ar: 'حلول سحابية متقدمة وأنظمة ذكية للأعمال'
+      en: 'Advanced Security Analysis & Digital Forensics',
+      ar: 'تحليل أمني متقدم وتحقيقات جنائية رقمية'
     },
     subtitle: {
-      en: 'Robust backend architecture, high availability, and real-time enterprise management suites.',
-      ar: 'بنية تحتية سحابية مرنة وفائقة الأمان تضمن استمرارية وتوسع أعمالك بلا حدود.'
+      en: 'Reverse engineering, vulnerability intelligence, threat modeling, and incident response for mission-critical infrastructure.',
+      ar: 'هندسة عكسية، استخبارات الثغرات، نمذجة التهديدات، واستجابة فورية للحوادث الأمنية للبنى التحتية الحساسة.'
     },
     description: {
-      en: 'Accelerate your digital operations with automated workflows, cloud-native security, and microservices.',
-      ar: 'ارتقِ بكفاءة مؤسستك عبر أتمتة العمليات ودمج الذكاء الاصطناعي مع أعلى معايير الحماية.'
+      en: 'Deep binary inspection, malware disassembly, memory forensics, and rigorous compliance audits protecting your core digital assets.',
+      ar: 'فحص عميق للشيفرات البرمجية، تحليل البرمجيات الخبيثة، تحقيقات الذاكرة الرقمية، وتدقيق أمني شامل لحماية أصولك الرقمية.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&auto=format&fit=crop&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&auto=format&fit=crop&q=80',
     badge: {
-      en: 'Enterprise Solutions',
-      ar: 'حلول المؤسسات'
+      en: 'Offensive & Defensive Security',
+      ar: 'الأمن الهجومي والدفاعي'
     },
     buttonText: {
-      en: 'Our Services',
-      ar: 'خدماتنا'
+      en: 'Cybersecurity Services',
+      ar: 'خدمات الأمن السيبراني'
     },
     buttonLink: '/services',
     secondaryButtonText: {
-      en: 'Book Consultation',
-      ar: 'احجز استشارة'
+      en: 'Contact Specialists',
+      ar: 'تواصل مع خبرائنا'
     },
     secondaryButtonLink: '/contact',
     order: 2,
@@ -112,32 +112,32 @@ export const initialBanners: Banner[] = [
   {
     id: 'banner-3',
     title: {
-      en: 'Crafting Award-Winning Mobile Experiences',
-      ar: 'تطوير تطبيقات جوال استثنائية وعالمية'
+      en: 'Intelligent Platforms & Custom Software Systems',
+      ar: 'منصات ذكية وحلول برمجية مخصصة'
     },
     subtitle: {
-      en: 'Native iOS & Android apps designed for speed, intuitive interaction, and millions of users.',
-      ar: 'تطبيقات iOS و Android فائقة السرعة بتجربة مستخدم لا تضاهى وأحدث التقنيات.'
+      en: 'Architecting ultra-secure mobile ecosystems, high-throughput cloud platforms, and resilient enterprise applications.',
+      ar: 'تصميم وبناء تطبيقات جوال فائقة الأمان، ومنصات سحابية عالية الأداء، وأنظمة مؤسسية متطورة.'
     },
     description: {
-      en: 'From concept to App Store deployment, we engineer mobile software that users love and trust.',
-      ar: 'من الفكرة حتى النشر، نصنع تطبيقات حازت على ثقة مئات الآلاف من المستخدمين.'
+      en: 'Our mission is to build, analyze, and secure modern digital technologies through innovation, technical expertise, and responsible security research.',
+      ar: 'مهمتنا هي بناء وتحليل وحماية التقنيات الرقمية الحديثة من خلال الابتكار والخبرة الفنية والأبحاث الأمنية المسؤولة.'
     },
-    imageUrl: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&auto=format&fit=crop&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&auto=format&fit=crop&q=80',
     badge: {
-      en: 'Mobile Ecosystem',
-      ar: 'منظومة التطبيقات'
+      en: 'Scalable Systems',
+      ar: 'أنظمة متقدمة وقابلة للتوسع'
     },
     buttonText: {
-      en: 'Discover Apps',
-      ar: 'اكتشف التطبيقات'
+      en: 'View Portfolio',
+      ar: 'معرض المشاريع'
     },
-    buttonLink: '/applications',
+    buttonLink: '/projects',
     secondaryButtonText: {
-      en: 'Portfolio',
-      ar: 'المشاريع'
+      en: 'Get in Touch',
+      ar: 'تواصل معنا'
     },
-    secondaryButtonLink: '/projects',
+    secondaryButtonLink: '/contact',
     order: 3,
     isActive: true
   }
@@ -145,256 +145,257 @@ export const initialBanners: Banner[] = [
 
 export const initialAbout: AboutInfo = {
   companyName: {
-    en: 'NS GROUP Technologies',
-    ar: 'مجموعة إن إس للتقنية'
+    en: 'ROGUE BYTE LLC',
+    ar: 'روج بايت ذ.م.م'
   },
   tagline: {
-    en: 'Engineering the digital future for ambitious organizations',
-    ar: 'نهندس المستقبل الرقمي للمؤسسات الرائدة'
+    en: 'Building, analyzing, and securing modern digital technologies',
+    ar: 'بناء وتحليل وحماية التقنيات الرقمية الحديثة'
   },
   bio: {
-    en: 'NS GROUP Technologies is a leading software engineering and technology consulting company. We specialize in designing and delivering high-impact mobile applications, enterprise web platforms, secure cloud architectures, and digital transformation solutions.',
-    ar: 'إن إس جروب هي شركة رائدة في هندسة البرمجيات والحلول الرقمية المتقدمة. نتخصص في ابتكار وبناء تطبيقات الجوال المتميزة، والمنصات السحابية المتكاملة، وأنظمة إدارة الأعمال التي تدعم التحول الرقمي الشامل.'
+    en: 'ROGUE BYTE LLC is a technology and cybersecurity company specializing in software engineering, application development, digital solutions, cybersecurity, reverse engineering, and digital forensics. We develop secure, scalable, and innovative mobile applications, web platforms, intelligent systems, and custom software solutions while providing advanced security analysis and digital investigation capabilities. Our mission is to build, analyze, and secure modern digital technologies through innovation, technical expertise, and responsible security research.',
+    ar: 'شركة روج بايت (ROGUE BYTE LLC) هي شركة متخصصة في التكنولوجيا والأمن السيبراني، وهندسة البرمجيات، وتطوير التطبيقات، والحلول الرقمية، والأمن السيبراني، والهندسة العكسية، والتحقيق الجنائي الرقمي. نقوم بتطوير تطبيقات جوال ومنصات ويب وأنظمة ذكية وحلول برمجية مخصصة آمنة وقابلة للتطوير ومبتكرة، مع توفير قدرات متقدمة للتحليل الأمني والتحقيق الرقمي. مهمتنا هي بناء وتحليل وحماية التقنيات الرقمية الحديثة من خلال الابتكار والخبرة الفنية والأبحاث الأمنية المسؤولة.'
   },
   story: {
-    en: 'Founded by senior software architects with a vision to build globally competitive digital products, NS GROUP has grown into an engineering powerhouse trusted by leading enterprises and forward-thinking startups.',
-    ar: 'تأسست الشركة على أيدي نخبة من مهندسي البرمجيات بهدف بناء منتجات رقمية بمواصفات عالمية، وتطورت لتصبح شريكاً تقنياً موثوقاً لأبرز المؤسسات والشركات الناشئة.'
+    en: 'ROGUE BYTE LLC was founded by elite security researchers, system architects, and reverse engineers with a unified mission: to bridge the gap between world-class software engineering and hardened digital security. We build systems from the ground up with security-first architectures, while providing deep-tier forensic and vulnerability insights to high-stakes organizations worldwide.',
+    ar: 'تأسست شركة روج بايت على أيدي نخبة من باحثي الأمن السيبراني ومهندسي الأنظمة والهندسة العكسية بهدف الجمع بين الإتقان البرمجي الهندسي والحماية الأمنية الفائقة. نبني الأنظمة وفق أعلى المعايير الأمنية وندعم المؤسسات بالتحليلات الجنائية والوقائية المتقدمة.'
   },
   vision: {
-    en: 'To be the premier digital innovation partner recognized globally for building mission-critical software and intuitive applications that enrich people lives.',
-    ar: 'أن نكون الشريك التقني الأول في الابتكار الرقمي على المستوى الإقليمي والعالمي عبر تقديم برمجيات عالية الجودة وموثوقة.'
+    en: 'To be a globally recognized authority in cybersecurity, software engineering, and digital forensics, renowned for building resilient software architectures and pioneering defensive & analytical innovations.',
+    ar: 'أن نكون المرجع التقني والأمني الأول عالمياً في هندسة البرمجيات والأمن السيبراني والتحقيق الجنائي الرقمي، والمعروف بابتكار حلول وأنظمة فائقة الصمود والأمان.'
   },
   mission: {
-    en: 'Empowering businesses and individuals through cutting-edge technology, human-centric design, and relentless dedication to software engineering excellence.',
-    ar: 'تمكين الشركات والأفراد من خلال تقنيات مبتكرة، وتصميم يركز على تجربة المستخدم، والتزام تام بأعلى معايير الجودة البرمجية.'
+    en: 'Our mission is to build, analyze, and secure modern digital technologies through innovation, technical expertise, and responsible security research.',
+    ar: 'مهمتنا هي بناء وتحليل وحماية التقنيات الرقمية الحديثة من خلال الابتكار والخبرة الفنية والأبحاث الأمنية المسؤولة.'
   },
   values: [
     {
-      title: { en: 'Engineering Excellence', ar: 'التميز الهندسي' },
-      desc: { en: 'We adhere to the highest code quality, performance benchmarks, and security standards.', ar: 'نلتزم بأعلى معايير جودة الكود، الأداء العالي، والحماية الرقمية المتكاملة.' },
+      title: { en: 'Security-First Engineering', ar: 'الهندسة المبنية على الأمان أولاً' },
+      desc: { en: 'Zero-trust design patterns, strict cryptographic standards, and secure SDLC at every phase.', ar: 'تطبيق مبادئ انعدام الثقة (Zero-Trust)، التشفير القوي، ودورات تطوير برمجية آمنة ومحمية بالكامل.' },
       icon: 'ShieldCheck'
     },
     {
-      title: { en: 'User-Centric Design', ar: 'التصميم المرتكز على الإنسان' },
-      desc: { en: 'Every interface is engineered for seamless intuition, accessibility, and elegance.', ar: 'نصمم واجهات سهلة، سلسة، وعصرية تحقق أعلى مستويات التفاعل والرضا.' },
-      icon: 'Sparkles'
+      title: { en: 'Deep Technical Rigor', ar: 'الصرامة والدقة الفنية' },
+      desc: { en: 'Mastery over low-level binaries, reverse engineering, kernel internals, and high-throughput systems.', ar: 'إتقان متعمق للشيفرات البرمجية منخفضة المستوى، الهندسة العكسية، ونواة الأنظمة.' },
+      icon: 'Binary'
     },
     {
-      title: { en: 'Continuous Innovation', ar: 'الابتكار المستمر' },
-      desc: { en: 'We constantly integrate emerging technologies to keep our clients ahead of the curve.', ar: 'نواكب أحدث التطورات التقنية والذكاء الاصطناعي لضمان تفوق عملائنا.' },
+      title: { en: 'Responsible Security Research', ar: 'الأبحاث الأمنية المسؤولة' },
+      desc: { en: 'Committed to ethical vulnerability disclosure, forensic integrity, and technological guardianship.', ar: 'الالتزام التام بالمعايير الأخلاقية في كشف الثغرات والنزاهة الجنائية الرقمية.' },
+      icon: 'Lock'
+    },
+    {
+      title: { en: 'Innovation & Agility', ar: 'الابتكار والمرونة التكنولوجية' },
+      desc: { en: 'Developing modern, scalable, intuitive web, mobile, and AI solutions that outperform expectations.', ar: 'تطوير حلول ويب وجوال وذكاء اصطناعي حديثة وقابلة للتطوير تفوق التوقعات.' },
       icon: 'Zap'
-    },
-    {
-      title: { en: 'Integrity & Transparency', ar: 'النزاهة والشفافية' },
-      desc: { en: 'Honest collaboration, transparent delivery timelines, and genuine long-term partnerships.', ar: 'شراكات مبنية على الثقة، والالتزام بالمواعيد، والوضوح الكامل في كل مرحلة.' },
-      icon: 'HeartHandshake'
     }
   ],
-  experienceYears: 8,
-  completedProjects: 65,
-  satisfiedClients: 120,
-  expertTeam: 24,
-  heroImageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&auto=format&fit=crop&q=80'
+  experienceYears: 10,
+  completedProjects: 85,
+  satisfiedClients: 140,
+  expertTeam: 32,
+  heroImageUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&auto=format&fit=crop&q=80'
 };
 
 export const initialServices: Service[] = [
   {
-    id: 'service-1',
+    id: 'service-cybersecurity',
     title: {
-      en: 'Mobile App Development',
-      ar: 'تطوير تطبيقات الجوال'
+      en: 'Cybersecurity & Penetration Testing',
+      ar: 'الأمن السيبراني واختبار الاختراق'
     },
     description: {
-      en: 'Native iOS & Android and high-performance cross-platform mobile apps engineered with modern tech stacks.',
-      ar: 'تطوير تطبيقات iOS و Android بأحدث التقنيات وبأعلى معايير السرعة والاستقرار.'
+      en: 'Comprehensive threat modeling, advanced red-teaming, web/mobile penetration testing, and infrastructure hardening.',
+      ar: 'تقييم شامل للتهديدات، اختبارات اختراق متقدمة لتطبيقات الويب والجوال، وتحصين البنى التحتية الحساسة.'
     },
-    icon: 'Smartphone',
+    icon: 'Shield',
     order: 1,
     isActive: true,
     features: [
-      { en: 'iOS & Android Native Performance', ar: 'أداء فائق على نظامي iOS و Android' },
-      { en: 'Modern UI/UX Micro-interactions', ar: 'تصميم تجربة مستخدم عصرية وسلسة' },
-      { en: 'Offline Synchronization & Push Notifications', ar: 'مزامنة بدون إنترنت وإشعارات ذكية' }
+      { en: 'Full-Scope Red Team & Penetration Assessments', ar: 'اختبارات اختراق شاملة ومحاكاة الهجمات الواقعية' },
+      { en: 'Source Code Security Review (SAST & DAST)', ar: 'مراجعة أمنية دقيقة للشيفرة المصدرية' },
+      { en: 'Zero-Trust Architecture & Cloud Hardening', ar: 'بناء استراتيجيات انعدام الثقة وتأمين السحابة' }
     ]
   },
   {
-    id: 'service-2',
+    id: 'service-reverse-engineering',
     title: {
-      en: 'Web Application Engineering',
-      ar: 'تطوير المواقع والمنصات'
+      en: 'Reverse Engineering & Binary Analysis',
+      ar: 'الهندسة العكسية وتحليل البرمجيات'
     },
     description: {
-      en: 'Responsive, fast, and secure web applications built using React, Next.js, and cloud-native backends.',
-      ar: 'تصميم وتطوير مواقع سريعة ومتجاوبة مع جميع الأجهزة بأحدث أطر العمل الحديثة.'
+      en: 'Decompilation, binary instrumentation, proprietary protocol analysis, and malware dissection to uncover internal logic.',
+      ar: 'تفكيك الشيفرات الثنائية، تحليل البروتوكولات الخاصة، وتحليل البرمجيات الخبيثة لفهم وتدقيق آليات عملها.'
     },
-    icon: 'Globe',
+    icon: 'Terminal',
     order: 2,
     isActive: true,
     features: [
-      { en: 'Single Page & Server-Rendered Apps', ar: 'تطبيقات ويب فائقة السرعة ومتجاوبة' },
-      { en: 'SEO Optimized & Accessible', ar: 'مهيأة لمحركات البحث ومتوافقة كلياً' },
-      { en: 'PWA Support for Mobile Installation', ar: 'دعم تطبيقات الويب التقدمية (PWA)' }
+      { en: 'Binary Decompilation & Assembly Inspection', ar: 'تفكيك الشيفرات البرمجية وتحليل لغة التجميع' },
+      { en: 'Hardware & Firmware Security Auditing', ar: 'تدقيق أمني للبرمجيات المدمجة والعتاد الذكي' },
+      { en: 'Proprietary Protocol & API Reverse Engineering', ar: 'تحليل وفك شفرة بروتوكولات الاتصال الخاصة' }
     ]
   },
   {
-    id: 'service-3',
+    id: 'service-digital-forensics',
     title: {
-      en: 'Business Management Systems',
-      ar: 'أنظمة إدارة الأعمال'
+      en: 'Digital Forensics & Incident Response (DFIR)',
+      ar: 'التحقيق الجنائي الرقمي والاستجابة للحوادث'
     },
     description: {
-      en: 'Custom ERP, CRM, and bespoke workflow management systems to streamline your operations.',
-      ar: 'حلول برمجية متكاملة لإدارة أعمالك وموظفيك ومبيعاتك بكفاءة وسهولة تامة.'
+      en: 'Evidence preservation, memory dump analysis, root cause breach investigation, and forensic court-ready reporting.',
+      ar: 'تحريز الأدلة الرقمية، تحليل الذاكرة وسجلات النظام، تحديد أسباب الاختراقات، وإعداد تقارير جنائية معتمدة.'
     },
-    icon: 'Monitor',
+    icon: 'FileSearch',
     order: 3,
     isActive: true,
     features: [
-      { en: 'Custom CRM & Resource Planning', ar: 'إدارة علاقات العملاء والموارد' },
-      { en: 'Automated Invoicing & Reporting', ar: 'فواتير وتقارير مالية مؤتمتة' },
-      { en: 'Role-Based Access & Audit Logs', ar: 'صلاحيات مخصصة وسجلات تدقيق' }
+      { en: 'Rapid Incident Response & Threat Containment', ar: 'استجابة سريعة للحوادث واحتواء التهديدات' },
+      { en: 'Memory, Disk & Network Artifact Forensics', ar: 'تحليل جنائي متعمق للذاكرة والأقراص والشبكات' },
+      { en: 'Chain of Custody & Forensic Reporting', ar: 'توثيق سلسلة الحيازة وتقارير جنائية متكاملة' }
     ]
   },
   {
-    id: 'service-4',
+    id: 'service-software-engineering',
     title: {
-      en: 'Cloud & DevOps Solutions',
-      ar: 'الحلول السحابية'
+      en: 'Software Engineering & Custom Solutions',
+      ar: 'هندسة البرمجيات والحلول المخصصة'
     },
     description: {
-      en: 'Secure, scalable cloud infrastructures, automated CI/CD pipelines, and microservices architecture.',
-      ar: 'نقدم حلول سحابية آمنة ومرنة لتطوير واستضافة أعمالك وتوسيعها بدون توقف.'
+      en: 'Engineering scalable backend services, microservices, high-throughput APIs, and custom enterprise tools.',
+      ar: 'بناء وتصميم أنظمة برمجية مخصصة، واجهات برمجية عالية الأداء، وحلول مؤسسية معقدة.'
     },
-    icon: 'Cloud',
+    icon: 'Cpu',
     order: 4,
     isActive: true,
     features: [
-      { en: 'GCP, AWS & Firebase Architecture', ar: 'بنى تحتية سحابية متقدمة وآمنة' },
-      { en: 'Automated CI/CD Deployments', ar: 'نشر برمجي مؤتمت وفوري' },
-      { en: 'High Availability & 99.99% Uptime', ar: 'جاهزية عالية وحماية ضد التوقف' }
+      { en: 'High-Concurrency Distributed Systems', ar: 'أنظمة موزعة فائقة التحمل والأداء' },
+      { en: 'Microservices & Clean Architecture', ar: 'هياكل برمجية معيارية ونظيفة' },
+      { en: 'Automated CI/CD & DevSecOps Pipelines', ar: 'مسارات دمج ونشر مؤتمتة ومعززة أمنياً' }
     ]
   },
   {
-    id: 'service-5',
+    id: 'service-mobile-web-dev',
     title: {
-      en: 'Data Analytics & AI Solutions',
-      ar: 'تحليل البيانات والذكاء الاصطناعي'
+      en: 'Application Development (Mobile & Web Platforms)',
+      ar: 'تطوير التطبيقات (منصات الجوال والويب)'
     },
     description: {
-      en: 'Transform raw data into actionable visual insights and integrate AI models into your workflows.',
-      ar: 'تحويل بياناتك إلى رؤى ذكية ومؤشرات تفاعلية لمساعدتك في اتخاذ قرارات دقيقة.'
+      en: 'Developing secure, modern, and intuitive native iOS, Android, and responsive web platforms.',
+      ar: 'تطوير تطبيقات جوال ومنصات ويب حديثة، سريعة، وسلسة مع مراعاة أعلى معايير الحماية والأداء.'
     },
-    icon: 'TrendingUp',
+    icon: 'Smartphone',
     order: 5,
     isActive: true,
     features: [
-      { en: 'Real-Time Interactive Dashboards', ar: 'لوحات تحكم تفاعلية لحظية' },
-      { en: 'Predictive Analytics & KPI Tracking', ar: 'تحليلات تنبؤية وتتبع مؤشرات الأداء' },
-      { en: 'LLM & AI Workflow Integrations', ar: 'دمج نماذج الذكاء الاصطناعي والتعلم الآلي' }
+      { en: 'Native & Cross-Platform Mobile Apps (Flutter, React Native)', ar: 'تطبيقات جوال احترافية لأنظمة iOS و Android' },
+      { en: 'High-Performance Web Platforms (React, Next.js)', ar: 'منصات ويب متقدمة وسريعة الاستجابة' },
+      { en: 'End-to-End Encryption & Biometric Auth', ar: 'تشفير كامل من طرف لطرف ومصادقة حيوية' }
     ]
   },
   {
-    id: 'service-6',
+    id: 'service-intelligent-systems',
     title: {
-      en: 'Technical Support & Maintenance',
-      ar: 'الدعم الفني والصيانة'
+      en: 'Intelligent Systems & Secure Cloud Solutions',
+      ar: 'الأنظمة الذكية والحلول السحابية الآمنة'
     },
     description: {
-      en: '24/7 technical monitoring, security patches, regular updates, and continuous platform maintenance.',
-      ar: 'دعم فني مستمر وصيانة دورية وتحديثات أمنية لضمان استمرارية عملك بكفاءة.'
+      en: 'AI model integration, automated threat detection systems, and hardened cloud infrastructure.',
+      ar: 'دمج نماذج الذكاء الاصطناعي، أنظمة الكشف الآلي عن التهديدات، وبنى تحتية سحابية محصنة.'
     },
-    icon: 'Headphones',
+    icon: 'Cloud',
     order: 6,
     isActive: true,
     features: [
-      { en: '24/7 Emergency Incident Response', ar: 'استجابة فورية لحالات الطوارئ التقنية' },
-      { en: 'Regular Security & Vulnerability Audits', ar: 'تدقيق أمني دوري وتحديثات وقائية' },
-      { en: 'Continuous Performance Optimization', ar: 'تحسين مستمر لسرعة واستجابة الأنظمة' }
+      { en: 'AI-Driven Anomaly & Threat Detection', ar: 'كشف ذكي ومؤتمت عن التهديدات والأنماط الشاذة' },
+      { en: 'Hardened GCP, AWS & Azure Infrastructures', ar: 'بنى سحابية محصنة على Google Cloud و AWS' },
+      { en: '24/7 Monitoring & Resilient Architecture', ar: 'مراقبة مستمرة على مدار الساعة وجاهزية قصوى' }
     ]
   }
 ];
 
 export const initialApplications: Application[] = [
   {
-    id: 'app-ns-cars',
+    id: 'app-byte-shield',
     name: {
-      en: 'NS Cars',
-      ar: 'NS Cars'
+      en: 'ByteShield Sentinel',
+      ar: 'ByteShield Sentinel'
     },
-    logoUrl: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=200&auto=format&fit=crop&q=80',
-    coverImageUrl: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1000&auto=format&fit=crop&q=80',
+    logoUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&auto=format&fit=crop&q=80',
+    coverImageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&auto=format&fit=crop&q=80',
     screenshots: [
-      'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800&auto=format&fit=crop&q=80'
+      'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80',
+      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80',
+      'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&auto=format&fit=crop&q=80'
     ],
     shortDesc: {
-      en: 'Leading car rental & fleet booking application with seamless vehicle selection and instant payments.',
-      ar: 'تطبيق تأجير السيارات الأول في المنطقة. تجربة سهلة وسريعة لحجز وإدارة أسطول السيارات.'
+      en: 'Real-time endpoint protection, behavioral anomaly detection, and automated threat containment app.',
+      ar: 'تطبيق حماية النقاط الطرفية في الوقت الفعلي وكشف الأنماط الشاذة واحتواء التهديدات تلقائياً.'
     },
     fullDesc: {
-      en: 'NS Cars provides a comprehensive car rental and fleet management experience. Users can browse thousands of verified luxury, family, and economy vehicles with instant geolocation tracking, digital contract signing, and integrated multi-currency digital payment gateways.',
-      ar: 'يقدم تطبيق NS Cars حلاً متكاملاً لحجز واستئجار وإدارة أساطيل السيارات. يتيح للمستخدمين البحث وحجز السيارات الفاخرة والعائلية والاقتصادية مع تتبع حي بالموقع وتوقيع العقود إلكترونياً والدفع الفوري الآمن.'
+      en: 'ByteShield Sentinel is a next-generation security client engineered by ROGUE BYTE LLC. It provides kernel-level process monitoring, zero-day threat heuristics, memory tampering alerts, and direct integration into SOC telemetry pipelines.',
+      ar: 'تطبيق ByteShield Sentinel هو نظام حماية متطور من تطوير ROGUE BYTE LLC، يقدم مراقبة العمليات البرمجية، وكشف التهديدات غير المعروفة، وتنبيهات فورية عند التلاعب بالذاكرة مع تكامل مباشر مع مراكز العمليات الأمنية.'
     },
     features: [
-      { en: 'Instant Vehicle Booking & Keyless Access', ar: 'حجز فوري للسيارات وفتح بدون مفتاح' },
-      { en: 'Real-time GPS Tracking & Telematics', ar: 'تتبع جغرافي لحظي وحالة السيارة' },
-      { en: 'Digital Contract & ID Verification', ar: 'توثيق الهوية والعقود الرقمية' },
-      { en: 'Apple Pay & Credit Card Integration', ar: 'دعم Apple Pay والبطاقات الائتمانية' }
+      { en: 'Real-Time Heuristic Malware Detection', ar: 'كشف فوري ومتقدم عن البرمجيات الخبيثة' },
+      { en: 'Zero-Trust Process Isolation & Sandboxing', ar: 'عزل العمليات المشبوهة في بيئة آمنة' },
+      { en: 'Encrypted Telemetry & SOC Reporting', ar: 'نقل تقارير القياس عن بعد بصيغة مشفرة' },
+      { en: 'Automated Breach Isolation Kill-Switch', ar: 'مفتاح إيقاف فوري لعزل الأجهزة المصابة' }
     ],
-    technologies: ['Flutter', 'Node.js', 'Firebase', 'Google Maps API', 'Stripe'],
-    version: '2.4.1',
-    releaseDate: '2025-11-10',
+    technologies: ['Rust', 'C++', 'eBPF', 'React Native', 'WebSockets', 'gRPC'],
+    version: '2.5.0',
+    releaseDate: '2026-01-20',
     status: 'live',
     googlePlayUrl: 'https://play.google.com/store',
     appStoreUrl: 'https://apple.com/app-store',
-    websiteUrl: 'https://example.com/nscars',
+    websiteUrl: 'https://roguebyte.io/sentinel',
+    githubUrl: 'https://github.com/roguebyte/sentinel-agent',
     order: 1,
     isFeatured: true,
     isActive: true
   },
   {
-    id: 'app-ns-player',
+    id: 'app-hex-probe',
     name: {
-      en: 'NS Player',
-      ar: 'NS Player'
+      en: 'HexProbe Forensic Suite',
+      ar: 'HexProbe Forensic'
     },
-    logoUrl: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=200&auto=format&fit=crop&q=80',
-    coverImageUrl: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=1000&auto=format&fit=crop&q=80',
+    logoUrl: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=200&auto=format&fit=crop&q=80',
+    coverImageUrl: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1000&auto=format&fit=crop&q=80',
     screenshots: [
-      'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80'
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80',
+      'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80'
     ],
     shortDesc: {
-      en: 'Ultra-fast media and 4K video player with wide format decoding, subtitles engine, and casting.',
-      ar: 'مشغل فيديو متطور يدعم جميع الصيغ وتجربة مشاهدة فائقة الجودة والسرعة.'
+      en: 'Mobile and desktop digital forensics workspace for artifact carving, timeline extraction, and evidence triage.',
+      ar: 'منظومة التحقيق الجنائي الرقمي لاستخراج الأدلة، بناء الخطوط الزمنية للأحداث وتدقيق الذاكرة.'
     },
     fullDesc: {
-      en: 'NS Player is an advanced hardware-accelerated media player supporting 4K/8K playback, multi-track audio, auto subtitle downloads, streaming network protocols, and background picture-in-picture mode.',
-      ar: 'مشغل وسائط فائق التطور يدعم تشغيل الفيديو بدقة 4K و 8K مع دعم فك التشفير بالعتاد، وتنزيل الترجمات التلقائية، وبث الفيديو عبر الشبكة، وتعدد المسارات الصوتية.'
+      en: 'HexProbe is an all-in-one digital forensics and reverse engineering workspace. Allows investigators to ingest raw disk images, analyze mobile filesystem dumps, disassemble binaries with AI-powered decompilers, and generate courtroom-admissible audit reports.',
+      ar: 'منظومة HexProbe المتكاملة للتحقيقات الرقمية والهندسة العكسية تتيح فحص نسخ الأقراص الصلبة، وتفكيك البرمجيات بالذكاء الاصطناعي، واستخراج السجلات الجنائية المعتمدة.'
     },
     features: [
-      { en: 'Hardware Accelerated 4K/8K Playback', ar: 'تسريع تشغيل الفيديو بدقة 4K/8K' },
-      { en: 'Universal Codec & Subtitle Support', ar: 'دعم جميع صيغ الفيديو والترجمات' },
-      { en: 'Chromecast & AirPlay Casting', ar: 'بث الشاشة عبر Chromecast و AirPlay' },
-      { en: 'Gesture-based Brightness & Volume Control', ar: 'تحكم ذكي بالإيماءات في الصوت والسطوع' }
+      { en: 'Automated Artifact Parsing & Timeline Reconstruction', ar: 'تحليل السجلات وإعادة بناء الخط الزمني للحدث' },
+      { en: 'Interactive Binary Disassembler & CFG Viewer', ar: 'مفكك شيفرات تفاعلي وعارض لمسارات تدفق الكود' },
+      { en: 'Cryptographic Hashing & Evidence Integrity Verification', ar: 'حساب التجزئة التشفيرية لضمان سلامة الأدلة' },
+      { en: 'Automated PDF/HTML Court-Ready Export', ar: 'تصدير تقارير جنائية متكاملة بصيغة PDF' }
     ],
-    technologies: ['Swift', 'Kotlin', 'FFmpeg', 'C++', 'WebRTC'],
-    version: '3.1.0',
-    releaseDate: '2026-01-15',
+    technologies: ['Flutter', 'Rust', 'LLVM', 'SQLite', 'WebAssembly'],
+    version: '3.1.2',
+    releaseDate: '2026-02-10',
     status: 'live',
     googlePlayUrl: 'https://play.google.com/store',
     appStoreUrl: 'https://apple.com/app-store',
-    websiteUrl: 'https://example.com/nsplayer',
+    websiteUrl: 'https://roguebyte.io/hexprobe',
     order: 2,
     isFeatured: true,
     isActive: true
   },
   {
-    id: 'app-ns-hr',
+    id: 'app-vault-mesh',
     name: {
-      en: 'NS HR Enterprise',
-      ar: 'NS HR'
+      en: 'VaultMesh Enterprise',
+      ar: 'VaultMesh Enterprise'
     },
     logoUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=200&auto=format&fit=crop&q=80',
     coverImageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1000&auto=format&fit=crop&q=80',
@@ -403,64 +404,27 @@ export const initialApplications: Application[] = [
       'https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=800&auto=format&fit=crop&q=80'
     ],
     shortDesc: {
-      en: 'Comprehensive Human Resource Management system for tracking attendance, payroll, and performance.',
-      ar: 'نظام إدارة الموارد البشرية المتكامل لإدارة الموظفين والرواتب والحضور والإجازات.'
+      en: 'Zero-knowledge encrypted team workspace, secure credential rotation, and confidential messaging.',
+      ar: 'منصة مساحات العمل الآمنة بتشفير المعرفة الصفرية (Zero-Knowledge) والمراسلة السرية المشفرة.'
     },
     fullDesc: {
-      en: 'NS HR is a modern enterprise workforce management platform featuring geofenced mobile attendance check-in, automated payroll calculations, leave requests workflow, and performance appraisal dashboards.',
-      ar: 'منصة إدارة الموارد البشرية المتكاملة، تشمل تسجيل الحضور والانصراف بالبصمة والموقع الجغرافي، وإدارة مسيرات الرواتب، وطلبات الإجازات المؤتمتة، وتقييم أداء الكوادر.'
+      en: 'VaultMesh is a zero-trust enterprise suite providing quantum-resistant end-to-end encrypted messaging, automated secret and API key rotation, granular privilege granting, and real-time audit logging.',
+      ar: 'منظومة VaultMesh المؤسسية تقدم مراسلة مشفرة مقاومة للحوسبة الكمية، وإدارة وتدوير المفاتيح السرية، وصلاحيات دقيقة مع سجلات تدقيق لحظية.'
     },
     features: [
-      { en: 'Geofenced Biometric Check-in', ar: 'تسجيل حضور جغرافي وبالبصمة' },
-      { en: 'Automated Payroll & Tax Calculation', ar: 'حساب الرواتب والضرائب تلقائياً' },
-      { en: 'Leave & Expense Approval Workflows', ar: 'مسارات اعتماد الإجازات والمصروفات' },
-      { en: 'Employee Self-Service Mobile Portal', ar: 'بوابة الخدمة الذاتية للموظفين' }
+      { en: 'Post-Quantum End-to-End Encryption (Kyber/Dilithium)', ar: 'تشفير طرفي متطور مقاوم للحوسبة الكمومية' },
+      { en: 'Automated API Secret & SSH Key Rotation', ar: 'تدوير تلقائي للمفاتيح السرية والشهادات' },
+      { en: 'Time-Based Ephemeral Access Controls', ar: 'صلاحيات وصول مؤقتة ذاتية الإلغاء' },
+      { en: 'Multi-Platform Synchronization (iOS, Android, Web)', ar: 'مزامنة متعددة المنصات عبر جميع الأجهزة' }
     ],
-    technologies: ['React Native', 'React', 'Node.js', 'PostgreSQL', 'Docker'],
-    version: '1.8.4',
-    releaseDate: '2025-08-20',
+    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'WebRTC'],
+    version: '1.9.0',
+    releaseDate: '2025-12-05',
     status: 'live',
     googlePlayUrl: 'https://play.google.com/store',
     appStoreUrl: 'https://apple.com/app-store',
-    websiteUrl: 'https://example.com/nshr',
+    websiteUrl: 'https://roguebyte.io/vaultmesh',
     order: 3,
-    isFeatured: true,
-    isActive: true
-  },
-  {
-    id: 'app-pdf-viewer',
-    name: {
-      en: 'PDF Viewer & Editor Pro',
-      ar: 'PDF Viewer'
-    },
-    logoUrl: 'https://images.unsplash.com/photo-1568667256549-094345857637?w=200&auto=format&fit=crop&q=80',
-    coverImageUrl: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1000&auto=format&fit=crop&q=80',
-    screenshots: [
-      'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=800&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=80'
-    ],
-    shortDesc: {
-      en: 'Lightweight and fast PDF reader with advanced markup, document scanning, and digital signing.',
-      ar: 'قارئ PDF خفيف وسريع مع أدوات متقدمة لإدارة وتوقيع ومسح ملفات PDF.'
-    },
-    fullDesc: {
-      en: 'PDF Viewer Pro offers instant rendering of heavy document files, OCR text extraction in multiple languages, document merger/splitter, and secure cryptographic digital signature verification.',
-      ar: 'قارئ ومحرر مستندات PDF فائق السرعة، يوفر استخراج النصوص بالتعرف الضوئي OCR، ودمج وتقسيم الملفات، والتوقيع الرقمي الآمن للمستندات والعقود.'
-    },
-    features: [
-      { en: 'Instant Heavy File Rendering', ar: 'فتح وعرض سريع للمستندات الكبيرة' },
-      { en: 'Multi-language OCR Text Extraction', ar: 'استخراج النصوص من الصور والمستندات' },
-      { en: 'PDF Merge, Split & Compression', ar: 'دمج وتقسيم وضغط ملفات PDF' },
-      { en: 'Cryptographic Electronic Signatures', ar: 'توقيع المستندات إلكترونياً بأمان' }
-    ],
-    technologies: ['Flutter', 'Rust', 'PDFium', 'WebAssembly'],
-    version: '4.0.2',
-    releaseDate: '2026-02-01',
-    status: 'live',
-    googlePlayUrl: 'https://play.google.com/store',
-    appStoreUrl: 'https://apple.com/app-store',
-    githubUrl: 'https://github.com/nsgrouptech/pdf-viewer',
-    order: 4,
     isFeatured: true,
     isActive: true
   }
@@ -468,70 +432,69 @@ export const initialApplications: Application[] = [
 
 export const initialProjects: Project[] = [
   {
-    id: 'project-1',
+    id: 'project-cloud-soc',
     title: {
-      en: 'Smart Logistics & Fleet Telematics Hub',
-      ar: 'منصة تتبع وإدارة أساطيل الشحن اللوجستي'
+      en: 'Autonomous Cloud SOC & Threat Telemetry Hub',
+      ar: 'مركز القياس الأمني السحابي وكشف التهديدات الذكي'
     },
-    coverImageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1000&auto=format&fit=crop&q=80',
+    coverImageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1000&auto=format&fit=crop&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=800&auto=format&fit=crop&q=80'
+      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80',
+      'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80'
     ],
     description: {
-      en: 'An enterprise real-time dispatch and routing system optimizing fuel consumption, driver safety, and shipment tracking across 5,000+ trucks in the MENA region.',
-      ar: 'نظام متكامل لتتبع وإدارة شاحنات النقل والتوزيع اللوجستي عبر خرائط حية، مع تحسين استهلاك الوقود وجدولة الرحلات لأكثر من 5000 شاحنة.'
+      en: 'Architected and deployed a multi-tenant Security Operations Center (SOC) processing over 50,000 events/second with AI-driven threat triage and automated playbook executions.',
+      ar: 'تصميم وتنفيذ منصة متطورة لمركز العمليات الأمنية (SOC) تعالج أكثر من 50 ألف حدث في الثانية مع تحليل ذكي للتهديدات واستجابة مؤتمتة.'
     },
-    technologies: ['React', 'Node.js', 'Go', 'Redis', 'Kafka', 'Mapbox'],
-    clientName: 'Gulf Express Logistics',
-    category: { en: 'Enterprise Platform', ar: 'منصة مؤسسية' },
-    projectUrl: 'https://example.com/logistics',
-    date: '2025-10',
+    technologies: ['Go', 'Rust', 'Kafka', 'ClickHouse', 'React', 'Kubernetes'],
+    clientName: 'Global Defense & Fintech Consortium',
+    category: { en: 'Cybersecurity & Big Data', ar: 'الأمن السيبراني والبيانات الضخمة' },
+    projectUrl: 'https://roguebyte.io/cases/soc',
+    date: '2026-01',
     status: 'completed',
     isFeatured: true
   },
   {
-    id: 'project-2',
+    id: 'project-firmware-audit',
     title: {
-      en: 'Telehealth & Digital Clinic Suite',
-      ar: 'منظومة العيادات الرقمية والاستشارات الطبية'
+      en: 'Automotive & IoT Firmware Binary Security Audit',
+      ar: 'التدقيق الأمني والهندسة العكسية لبرمجيات السيارات وإنترنت الأشياء'
     },
-    coverImageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1000&auto=format&fit=crop&q=80',
+    coverImageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&auto=format&fit=crop&q=80',
     gallery: [
-      'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&auto=format&fit=crop&q=80'
+      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80'
     ],
     description: {
-      en: 'A HIPAA-compliant telemedicine platform with HD encrypted video consultations, electronic health records (EHR), and automated prescription fulfillment.',
-      ar: 'منصة استشارات طبية متوافقة مع معايير الأمان العالمية تتيح للمرضى حجز المواعيد، والتواصل المرئي المباشر مع الأطباء، وإصدار الوصفات الدوائية.'
+      en: 'Conducted in-depth reverse engineering and binary vulnerability analysis across connected vehicle telematics units, identifying and mitigating 14 zero-day vulnerabilities prior to production.',
+      ar: 'إجراء هندسة عكسية وفحص أمني شامل للبرمجيات المدمجة في وحدات تتبع المركبات المتصلة، واكتشاف ومعالجة 14 ثغرة أمنية حرجة قبل مرحلة الإنتاج.'
     },
-    technologies: ['Next.js', 'TypeScript', 'WebRTC', 'FastAPI', 'PostgreSQL'],
-    clientName: 'CarePlus Health Network',
-    category: { en: 'Healthcare & SaaS', ar: 'حلول الرعاية الصحية' },
-    projectUrl: 'https://example.com/careplus',
-    date: '2025-12',
+    technologies: ['Ghidra', 'IDA Pro', 'C', 'Python', 'QEMU', 'CAN Bus Protocol'],
+    clientName: 'NextGen Autonomous Mobility',
+    category: { en: 'Reverse Engineering', ar: 'الهندسة العكسية' },
+    projectUrl: 'https://roguebyte.io/cases/firmware',
+    date: '2025-11',
     status: 'completed',
     isFeatured: true
   },
   {
-    id: 'project-3',
+    id: 'project-fintech-forensics',
     title: {
-      en: 'FinTech Multi-Asset Investment Portal',
-      ar: 'بوابة الاستثمار والحلول المالية الرقمية'
+      en: 'Banking Transaction Anti-Fraud & Forensic Engine',
+      ar: 'محرك التحقيق الجنائي الرقمي ومكافحة الاحتيال المصرفي'
     },
     coverImageUrl: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1000&auto=format&fit=crop&q=80',
     gallery: [
       'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=80'
     ],
     description: {
-      en: 'Real-time financial analytics, algorithmic trade monitoring, and automated portfolio rebalancing for institutional and retail investors.',
-      ar: 'منصة تداول وتحليلات مالية تقدم تتبعاً حياً للأسواق والمحافظ الاستثمارية مع خوارزميات ذكية لإدارة المخاطر وتنبيهات فورية.'
+      en: 'Engineered a high-performance graph analytics and transaction forensics platform that detects coordinated money laundering rings and unauthorized system tampering in sub-second latency.',
+      ar: 'تطوير منصة تحقيقات جنائية مالية عالية السرعة لكشف محاولات الاحتيال وغسيل الأموال والتلاعب بالأنظمة في أجزاء من الثانية.'
     },
-    technologies: ['React', 'Python', 'WebSockets', 'TailwindCSS', 'TimescaleDB'],
-    clientName: 'AlphaCapital Investments',
-    category: { en: 'FinTech', ar: 'التقنية المالية' },
-    projectUrl: 'https://example.com/alphacapital',
-    date: '2026-01',
+    technologies: ['React', 'TypeScript', 'Neo4j', 'FastAPI', 'TimescaleDB', 'Docker'],
+    clientName: 'Apex International Banking Group',
+    category: { en: 'Digital Forensics & FinTech', ar: 'التحقيق الجنائي الرقمي والتقنية المالية' },
+    projectUrl: 'https://roguebyte.io/cases/fintech-forensics',
+    date: '2025-09',
     status: 'completed',
     isFeatured: true
   }

@@ -34,8 +34,8 @@ export const Footer: React.FC = () => {
 
   const currentYear = new Date().getFullYear();
   const brandName = settings?.companyName 
-    ? localize(settings.companyName, 'NS GROUP')
-    : 'NS GROUP';
+    ? localize(settings.companyName, 'ROGUE BYTE LLC')
+    : 'ROGUE BYTE LLC';
 
   const socialLinks = settings?.social || {};
 
@@ -47,17 +47,15 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="lg:col-span-2 flex flex-col gap-4">
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/25">
-                <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                </svg>
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/25">
+                <Shield className="w-5 h-5" />
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-xl tracking-tight text-white leading-tight">
                   {brandName}
                 </span>
-                <span className="text-[10px] uppercase font-bold tracking-widest text-blue-400">
-                  Technologies
+                <span className="text-[9px] uppercase font-bold tracking-widest text-cyan-400">
+                  Technology & Cybersecurity
                 </span>
               </div>
             </Link>
@@ -65,7 +63,7 @@ export const Footer: React.FC = () => {
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
               {settings?.seo?.metaDescription
                 ? localize(settings.seo.metaDescription)
-                : 'Pioneering next-generation mobile applications, intelligent enterprise platforms, and digital solutions.'}
+                : 'ROGUE BYTE LLC specializes in software engineering, application development, digital solutions, cybersecurity, reverse engineering, and digital forensics.'}
             </p>
 
             {/* Social Icons */}

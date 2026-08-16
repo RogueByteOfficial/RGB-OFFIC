@@ -154,7 +154,7 @@ export const AdminDashboard: React.FC = () => {
               <span>Real-time System Synchronized</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-black tracking-tight">
-              Welcome back to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">{settings?.companyName ? localize(settings.companyName) : 'NS Tech'} Hub</span>
+              Welcome back to <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-cyan-300">{settings?.companyName ? localize(settings.companyName) : 'ROGUE BYTE LLC'} Control Center</span>
             </h1>
             <p className="text-slate-400 text-sm max-w-xl">
               Control and manage all public content, applications, projects portfolio, hero banners, client inquiries, and SEO configurations in real-time.

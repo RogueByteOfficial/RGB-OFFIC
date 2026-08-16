@@ -54,8 +54,8 @@ export const Navbar: React.FC = () => {
   };
 
   const brandName = settings?.companyName 
-    ? localize(settings.companyName, 'NS GROUP')
-    : 'NS GROUP';
+    ? localize(settings.companyName, 'ROGUE BYTE LLC')
+    : 'ROGUE BYTE LLC';
 
   return (
     <header 
@@ -69,17 +69,15 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between">
           {/* Logo & Brand */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
-              <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
+              <Shield className="w-5 h-5" />
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg tracking-tight text-slate-900 dark:text-white leading-tight">
                 {brandName}
               </span>
-              <span className="text-[10px] uppercase font-bold tracking-widest text-blue-600 dark:text-blue-400">
-                Technologies
+              <span className="text-[9px] uppercase font-bold tracking-widest text-blue-600 dark:text-cyan-400">
+                Technology & Cybersecurity
               </span>
             </div>
           </Link>

@@ -41,15 +41,15 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({ onCloseMobile }) => 
       {/* Brand Header */}
       <div className="p-6 border-b border-slate-800 flex items-center justify-between">
         <Link to="/admin/dashboard" className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/30">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-md shadow-blue-500/30">
             <Shield className="w-5 h-5" />
           </div>
           <div className="flex flex-col">
             <span className="font-extrabold text-base text-white tracking-tight leading-tight">
-              NS Control Hub
+              ROGUE BYTE
             </span>
-            <span className="text-[10px] text-blue-400 font-bold uppercase tracking-wider">
-              Admin CMS
+            <span className="text-[10px] text-cyan-400 font-bold uppercase tracking-wider">
+              Control Center
             </span>
           </div>
         </Link>

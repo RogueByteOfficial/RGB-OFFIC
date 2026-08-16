@@ -301,37 +301,42 @@ export const deleteMediaItem = async (id: string): Promise<void> => {
 export const seedDatabase = async (force = false): Promise<boolean> => {
   try {
     const settingsDoc = await getDoc(doc(db, 'settings', 'general'));
-    if (settingsDoc.exists() && !force) {
-      return false; // Already initialized
+    const isOldBranding = settingsDoc.exists() && (
+      JSON.stringify(settingsDoc.data()).includes('NS GROUP') ||
+      JSON.stringify(settingsDoc.data()).includes('NS Tech')
+    );
+
+    if (settingsDoc.exists() && !force && !isOldBranding) {
+      return false; // Already initialized with up-to-date data
     }
 
     // 1. Settings
-    await setDoc(doc(db, 'settings', 'general'), initialSettings);
+    await setDoc(doc(db, 'settings', 'general'), initialSettings, { merge: true });
 
     // 2. About
-    await setDoc(doc(db, 'about', 'company'), initialAbout);
+    await setDoc(doc(db, 'about', 'company'), initialAbout, { merge: true });
 
     // 3. Banners
     for (const banner of initialBanners) {
-      await setDoc(doc(db, 'banners', banner.id), banner);
+      await setDoc(doc(db, 'banners', banner.id), banner, { merge: true });
     }
 
     // 4. Services
     for (const service of initialServices) {
-      await setDoc(doc(db, 'services', service.id), service);
+      await setDoc(doc(db, 'services', service.id), service, { merge: true });
     }
 
     // 5. Applications
     for (const app of initialApplications) {
-      await setDoc(doc(db, 'applications', app.id), app);
+      await setDoc(doc(db, 'applications', app.id), app, { merge: true });
     }
 
     // 6. Projects
     for (const proj of initialProjects) {
-      await setDoc(doc(db, 'projects', proj.id), proj);
+      await setDoc(doc(db, 'projects', proj.id), proj, { merge: true });
     }
 
-    console.log('Firebase Database seeded successfully!');
+    console.log('Firebase Database synced to ROGUE BYTE LLC successfully!');
     return true;
   } catch (err) {
     console.error('Error seeding database:', err);
